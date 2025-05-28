@@ -48,7 +48,7 @@ const WeatherForecast = ({ data }: WeatherForecastProps) => {
     const formatTemp = (temp:number)=> `${Math.round(temp)}`
 
   return(
-    <Card>
+    <Card className="bg-fuchsia-200">
         <CardHeader>
             <CardTitle>5-Day Forecast</CardTitle>
         </CardHeader>
